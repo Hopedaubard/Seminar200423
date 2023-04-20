@@ -7,10 +7,10 @@
 Console.WriteLine("Введите число: ");
 int num1 = int.Parse(Console.ReadLine());
 int start = -num1;
-while (start != -num1);
+while (start <= -num1);
 {
-    Console.WriteLine (start + "");
+    Console.Write (start + " ");
     start++;
 }
 
-//Не работает
+//Не работает, выдаёт только отрицательное число
