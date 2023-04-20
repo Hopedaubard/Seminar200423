@@ -34,3 +34,7 @@ else if (dayNum == 7)
 { 
 Console.WriteLine("Воскресение");
     }
+else 
+{ 
+Console.WriteLine("Нет такого дня недели!");
+    }
